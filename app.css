@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+font-size: 16px;
+background: url(https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: 'Tilt Neon', cursive !important;
+}
+
+.logo-box{
+    padding: 32px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 600px !important;
+    backdrop-filter: blur(2px);
+}
+
+.left-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+   max-width: 500px !important;
+   align-items: center;
+   border: 1px solid gray;
+   height: inherit;
+   padding: 15px;
+   background-color: rgba(255, 255, 255, 0.943);
+   border-radius: 15px;
+}
+
+.ease{
+    transition: all ease-in-out;
+    transition-duration: 2s;
+   
+}
+
+.left-form-container form{
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: space-between;
+width: 100%;
+max-width: 500px !important;
+
+}
+
+.left-form-container input[type="text"]:focus{
+ background-color: #dd9283b7 !important;
+}
+
+.left-form-container input[type="password"]:focus{
+    background-color: #dd9283b7 !important;
+   }
+
+   .left-form-container input[type="email"]:focus{
+    background-color: #dd9283b7 !important;
+   }
+
+.right-image-box{
+    border: 5px solid rgb(255, 252, 252);
+    height: inherit;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    z-index: -10;
+}
+
+.right-image-box img{
+    height: 100% ;
+    max-height: 590px ;
+}
+
+.figure-img{
+    width: 80px !important;
+}
+
+a{
+    text-decoration: none;
+    color: #39B5E0 !important;
+}
+
+button{
+    background-color: #39B5E0 !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+
+.slide-hide{
+    transition: ease-in-out;
+    transition-duration: 1s;
+    animation-name: hide;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    
+}
+
+@keyframes hide {
+    from{
+        transform: translateX(-20px);
+    }
+    to { visibility: hidden;}
+}
+
+.email-confirmation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmation .figure-img{
+    transition: 2s ease-in-out;
+    animation-name: slider;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   animation-direction: alternate
+   
+   ;
+}
+
+@keyframes slider {
+    from{
+        transform: translateY(4px);
+    }
+    to{
+        transform: translateY(-6px);
+    }
+}
+
+.login{
+    position: absolute;
+}
