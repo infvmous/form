@@ -151,7 +151,7 @@ button{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-       max-width: 450px !important;
+       max-width: 470px !important;
        align-items: center;
        border: 1px solid gray;
        height: inherit;
@@ -170,7 +170,7 @@ button{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-       max-width: 300px !important;
+       max-width: 350px !important;
        align-items: center;
        border: 1px solid gray;
        height: inherit;
@@ -183,7 +183,7 @@ button{
         border: 5px solid rgb(255, 252, 252);
         height: inherit;
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         border-radius: 5px;
         z-index: -10;
         
