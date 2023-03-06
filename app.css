@@ -151,7 +151,7 @@ button{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-       max-width: 400px !important;
+       max-width: 450px !important;
        align-items: center;
        border: 1px solid gray;
        height: inherit;
